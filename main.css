@@ -1,0 +1,15 @@
+* {
+	background-color: #008060;
+	color: white;
+	text-shadow: 2px 1px black;
+}
+
+
+
+.continue {
+	background-color: white;
+	color:black;
+	position:absolute;
+	left: 50%;
+	text-shadow: none;
+}
