@@ -9,14 +9,14 @@
 <h1>Are you ready to test your knitting trivia?</h1>
 <div class="Placeholder"></div> <br>
 <div id="question_wrapper">
-<fieldset>
-		<!--	<span class="question">Which one of these is not a member of the knitterati?</span><br>   -->
+<fieldset id="question_holder">
+		<span id="question"></span><br>  
 			<ul id="answer_holder">
 			
 			</ul>
 			<div id="button_holder">
 				<input type="button" id="submit" value="Submit Answer">
-				 <input type="button" id="retry_button" value="Try Again!"> 
+				 <input type="button" id="retry_button" value="Try Again!" style="display:none;">
 			</div>
 
 </fieldset>	
@@ -24,9 +24,6 @@
 <br>
 <br>
 
-<div id="myProgress">
-  <div id="myBar"></div>
-</div>
 
 <script type="text/javascript"  src="https://code.jquery.com/jquery-3.1.0.js" ></script>
 <script type="text/javascript" src= "app.js"></script>
